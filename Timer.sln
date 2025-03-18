@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer.csproj", "{2DEA69E0-5A63-4431-8B03-06F6AA6A0012}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEA69E0-5A63-4431-8B03-06F6AA6A0012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEA69E0-5A63-4431-8B03-06F6AA6A0012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEA69E0-5A63-4431-8B03-06F6AA6A0012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEA69E0-5A63-4431-8B03-06F6AA6A0012}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C4A65B-810E-4BEB-9E0B-9391D088DF12}
+	EndGlobalSection
+EndGlobal
