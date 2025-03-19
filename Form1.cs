@@ -89,7 +89,7 @@ namespace Timer
 
         private void buttonMinuteMax_Click(object sender, EventArgs e)
         {
-            if (minute == 60)
+            if (minute == 59)
             {
                 minute = 0;                
             }
@@ -116,7 +116,7 @@ namespace Timer
 
         private void buttonSecondsMax_Click(object sender, EventArgs e)
         {
-            if (seconds == 60)
+            if (seconds == 59)
             {
                 seconds = 00;                
             }
