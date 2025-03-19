@@ -89,7 +89,14 @@ namespace Timer
 
         private void buttonMinuteMax_Click(object sender, EventArgs e)
         {
-            minute++;
+            if (minute == 60)
+            {
+                minute = 0;                
+            }
+            else
+            {
+                minute++;
+            }
             labelMinute.Text = minute.ToString("D2");
         }
 
@@ -109,7 +116,14 @@ namespace Timer
 
         private void buttonSecondsMax_Click(object sender, EventArgs e)
         {
-            seconds++;
+            if (seconds == 60)
+            {
+                seconds = 00;                
+            }
+            else
+            {
+                seconds++;
+            }
             labelSeconds.Text = seconds.ToString("D2");
         }
 
